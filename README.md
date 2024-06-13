@@ -8,6 +8,6 @@ To solve the image captioning problems, this paper presents an attention-based, 
 
 This paper also introduces a new positional encoding scheme for object features, the “Importance Factor”.
 
-Importance Factor = Con f idenceRate × Ob jectWidth × Ob jectHeight
+ImportanceFactor = ConfidenceRate × ObjectWidth × ObjectHeight
 
 
