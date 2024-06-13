@@ -35,7 +35,9 @@ Early, we expected to reduce the params number, therefore boots up the speed of 
 
 Besides, we made some comparison when using features from SOTA CNN models like ViT (Visual Transformer), Swin Transformer (instead of using CNN backbone of Yolo4). The results point out the accuracy of our model is better than model uses ViT but it is not good as model uses Swin. About computation efficiency, the params number of our model is much less than models use ViT and Swin. Details is in the tables below.
 
-\tables of results
+![image](https://drive.google.com/uc?export=view&id=1Q8ZYaiJQeczcMzd4uQ8HGlIB1ABx7dRm "Comparison between models use LSTM for Decoder")
+
+![image](https://drive.google.com/uc?export=view&id=1KEzgCWKWY9dqvb1QWB-QY-vf-OBWyDvp "Comparison between models use Transformer for Decoder")
 
 In conclusion, experiments proved that our model is much better than original model about both accuracy and computation efficiency. It is also better than model that uses CNN features from ViT. When compare with model uses Swin, it is as good
 as this SOTA methods in terms of the trade-off between accuracy and computational resources required for training and inference. I hope that our ImgCapt_Yolo4_CNN_Obj model is a good choice if you have limited resources, for examples in cases of no GPU or weak GPU.
