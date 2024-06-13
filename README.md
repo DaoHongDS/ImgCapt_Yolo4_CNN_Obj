@@ -38,4 +38,4 @@ In advance, we made some comparison when using features from SOTA CNN models lik
 \tables of results
 
 In conclusion, experiments proved that our model is much better than original model about both accuracy and computation efficiency. It is also better than model that uses CNN features from ViT. When compare with model uses Swin, it is as good
-as this SOTA methods in terms of the trade-off between accuracy and computational resources required for training and inference. I hope that our ImgCapt_Yolo4_CNN_Obj model is a good choice if you have limited resource, for examples in cases of no GPU or weak GPU.
+as this SOTA methods in terms of the trade-off between accuracy and computational resources required for training and inference. I hope that our ImgCapt_Yolo4_CNN_Obj model is a good choice if you have limited resources, for examples in cases of no GPU or weak GPU.
