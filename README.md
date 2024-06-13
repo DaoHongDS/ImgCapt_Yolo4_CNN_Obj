@@ -21,8 +21,8 @@ The details of processing is on the image belows
 
 # Results
 
-The experiments is on COCO dataset (20M images)
+The experiments is on COCO dataset (train2014). We use 20k images (18k for training and 2k for testing (and calcalating BLEU, METEOR score).
 
 Early, we expected to reduce the params number, therefore boots up the speed of model (and maybe with some trade off with the accuracy). And we almost have made it... The params number had fallen from 96M (original model) to 75M (only 3/4 remaining). But, surprisingly, the accuracy was increased. BLEU4 was increased 25% from 0.171 (original model) to 0.214 (our model). METEOR was increased 12% from 0.366 (original model) to 0.411 (our model).
 
-We 
+In advance, we made some comparative with SOTA models 
