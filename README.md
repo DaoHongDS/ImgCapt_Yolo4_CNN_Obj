@@ -24,7 +24,7 @@ The details of processing is on the image belows
 The experiments is on COCO dataset (train2014). We use 20k images (18k for training and 2k for testing (and calcalating BLEU, METEOR scores).
 
 Models' architecture is Encoder-Decoder:
-1. Encoder is combination of features (gets from a CNN models) and object detection results (get from Yolo4 output). We tried some CNN models like: Xception, Yolo4 backbone (CSP Darknet53), ViT, SWIN...
+1. Encoder is combination of features (gets from a CNN models) and object detection results (get from Yolo4 output). We tried some CNN models like: Xception, Yolo4 backbone (CSP Darknet53), ViT, Swin...
 2. Decoder is LSTM or Transformer.
 
 For evaluations, we calculated BLEU and METEOR scores on the test dataset (2k COCO images). On the otherhand, we considered the params number of models and its speed of training and predicting.
@@ -33,8 +33,9 @@ For evaluations, we calculated BLEU and METEOR scores on the test dataset (2k CO
 
 Early, we expected to reduce the params number, therefore boots up the speed of model (and maybe with some trade off with the accuracy). And we almost have made it... The params number had fallen from 96M (original model) to 75M (only 3/4 remaining). But, surprisingly, the accuracy was increased. BLEU4 was increased 25% from 0.171 (original model) to 0.214 (our model). METEOR was increased 12% from 0.366 (original model) to 0.411 (our model).
 
-In advance, we made some comparison when using features from SOTA CNN models like ViT, SWIN (instead of using CNN backbone of Yolo4). The results point out the accuracy of our model is better than model use ViT but it is not good as model use Swin. About computation efficiency, the params number of our model is much less than models use ViT and Swin. Details is in the tables below.
+In advance, we made some comparison when using features from SOTA CNN models like ViT, SWIN (instead of using CNN backbone of Yolo4). The results point out the accuracy of our model is better than model uses ViT but it is not good as model uses Swin. About computation efficiency, the params number of our model is much less than models use ViT and Swin. Details is in the tables below.
 
 \tables of results
 
-This is 
+In conclusion, experiments proved that our model is much better than original model about both accuracy and computation efficiency. It is also better than model that uses CNN features from ViT. When compare with model uses Swin, it is as good
+as this SOTA methods in terms of the trade-off between accuracy and computational resources required for training and inference. I hope that our ImgCapt_Yolo4_CNN_Obj model is a good choice if you have limited resource, for examples in cases of no GPU or weak GPU.
