@@ -15,6 +15,9 @@ ImportanceFactor = ConfidenceRate × ObjectWidth × ObjectHeight
 
 \image of CNN feature point
 
+![image](https://drive.google.com/uc?export=view&id=1Bu6hOxMWKNTAEWigMR7_8ikX4zz_BSc2)
+https://drive.google.com/file/d/1Bu6hOxMWKNTAEWigMR7_8ikX4zz_BSc2/view?usp=sharing
+
 The details of processing is on the image belows
 
 \image processing
