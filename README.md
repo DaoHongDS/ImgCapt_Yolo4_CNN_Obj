@@ -15,4 +15,13 @@ We made improvements by replacing CNN features (Xception) from the original mode
 
 \image of CNN feature point
 
+The details of processing is on the image belows
+
+\image processing
+
 # Results
+
+The experiments is on COCO dataset (20M images)
+
+Early, we expected to reduce the params number, therefore boots up the speed of model (and maybe with some trade off with the accuracy). And we almost have made it... The params number had fallen from 96M (original model) to 75M (only 3/4 remaining). But, suprisingly, the accuracy increased (BLEU4 incresed 25% from 
+
