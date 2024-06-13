@@ -27,6 +27,8 @@ Models' architecture is Encoder-Decoder:
 1. Encoder is combination of features (gets from a CNN models) and object detection results (get from Yolo4 output). We tried some CNN models like: Xception, Yolo4 backbone (CSP Darknet53), ViT, SWIN...
 2. Decoder is LSTM or Transformer.
 
+For evaluations, we calculated BLEU and METEOR scores on the test dataset (2k COCO images). On the otherhand, we considered the params number of models and its speed of training and predicting.
+
 # Results
 
 Early, we expected to reduce the params number, therefore boots up the speed of model (and maybe with some trade off with the accuracy). And we almost have made it... The params number had fallen from 96M (original model) to 75M (only 3/4 remaining). But, surprisingly, the accuracy was increased. BLEU4 was increased 25% from 0.171 (original model) to 0.214 (our model). METEOR was increased 12% from 0.366 (original model) to 0.411 (our model).
