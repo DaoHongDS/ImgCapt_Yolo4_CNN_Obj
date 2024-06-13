@@ -11,11 +11,9 @@ This paper also introduces a new positional encoding scheme for object features,
 
 ImportanceFactor = ConfidenceRate × ObjectWidth × ObjectHeight
 
-**We made improvements** by replacing CNN features (Xception) from the original model by Yolo4 CNN features (CSP Darknet53). So, we only use Yolo4 instead of both Xception and Yolo4 for the image captioning model. The CNN features is get from the end point of CSP Darknet53. At this point, we can optimize the size of features shape and the depth (the features are good enough and the size is not too big).
+**We made improvements** by replacing CNN features (Xception) from the original model by Yolo4 CNN features (CSP Darknet53). So, we only use Yolo4 instead of both Xception and Yolo4 for the image captioning model. The CNN features is get from the end point of CSP Darknet53 (as figure below). At this point, we can optimize the size of features shape and the depth (the features are good enough and the size is not too big).
 
-\image of CNN feature point
-
-![image](https://drive.google.com/uc?export=view&id=1Bu6hOxMWKNTAEWigMR7_8ikX4zz_BSc2)
+![image](https://drive.google.com/uc?export=view&id=1Bu6hOxMWKNTAEWigMR7_8ikX4zz_BSc2 "The CNN features is extracted from the end point of CSP Darknet53")
 
 The details of processing is on the image belows
 
