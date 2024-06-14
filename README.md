@@ -15,13 +15,9 @@ ImportanceFactor = ConfidenceRate × ObjectWidth × ObjectHeight
 
 ![image](https://drive.google.com/uc?export=view&id=1Bu6hOxMWKNTAEWigMR7_8ikX4zz_BSc2 "The CNN features is extracted from the end point of CSP Darknet53")
 
-The details of processing is on the image belows
-
-\image processing
+The details of processing is on the image belows:
 
 ![image](https://drive.google.com/uc?export=view&id=1HxsF5MUV2aCpgDyWx4hfMZ0RXTW_otjQ "Processing to extract combined features for image captioning model")
-
-https://drive.google.com/file/d/1HxsF5MUV2aCpgDyWx4hfMZ0RXTW_otjQ/view?usp=sharing
 
 # Experiments
 
