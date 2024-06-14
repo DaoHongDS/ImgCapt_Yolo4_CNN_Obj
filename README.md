@@ -31,7 +31,7 @@ For evaluations, we calculated BLEU and METEOR scores on the test dataset (2k CO
 
 # Results
 
-Early, we expected to reduce the params number, therefore boots up the speed of model (and maybe with some trade off with the accuracy). And we almost have made it... The params number had fallen from 96M (original model) to 75M (only 3/4 remaining). But, surprisingly, the accuracy was increased. BLEU4 was increased 25% from 0.171 (original model) to 0.214 (our model). METEOR was increased 12% from 0.366 (original model) to 0.411 (our model).
+At first, we expected to reduce the params number, therefore boots up the speed of model (and maybe with some trade off with the accuracy). And we almost have made it... The params number had fallen from 96M (original model) to 75M (only 3/4 remaining). But, surprisingly, the accuracy was increased. BLEU4 was increased 25% from 0.171 (original model) to 0.214 (our model). METEOR was increased 12% from 0.366 (original model) to 0.411 (our model).
 
 Besides, we made some comparison when using features from SOTA CNN models like ViT (Visual Transformer), Swin Transformer (instead of using CNN backbone of Yolo4). The results point out the accuracy of our model is better than model uses ViT but it is not good as model uses Swin. About computation efficiency, the params number of our model is much less than models use ViT and Swin. Details is in the tables below.
 
