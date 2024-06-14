@@ -19,6 +19,10 @@ The details of processing is on the image belows
 
 \image processing
 
+![image](https://drive.google.com/uc?export=view&id=1HxsF5MUV2aCpgDyWx4hfMZ0RXTW_otjQ "Processing to extract combined features for image captioning model")
+
+https://drive.google.com/file/d/1HxsF5MUV2aCpgDyWx4hfMZ0RXTW_otjQ/view?usp=sharing
+
 # Experiments
 
 The experiments is on COCO dataset (train2014). We use 20k images (18k for training and 2k for testing (and calcalating BLEU, METEOR scores).
