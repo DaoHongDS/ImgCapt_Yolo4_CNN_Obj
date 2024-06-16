@@ -46,4 +46,4 @@ as this SOTA methods in terms of the trade-off between accuracy and computationa
 
 1. Clone the project
 2. Extract file pycocotools.rar (library support COCO dataset)
-3. Download (https://drive.google.com/file/d/1c1ddEkk4-EKT9mbyg0RGSIMVuB32zXHB/view?usp=sharing) and add file yolov4.weights to the project folder.
+3. [Download](https://drive.google.com/file/d/1c1ddEkk4-EKT9mbyg0RGSIMVuB32zXHB/view?usp=sharing) and add file yolov4.weights to the project folder.
