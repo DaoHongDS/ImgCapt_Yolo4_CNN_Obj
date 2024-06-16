@@ -48,8 +48,8 @@ as this SOTA methods in terms of the trade-off between accuracy and computationa
 2. Extract file pycocotools.rar (library that supports the COCO dataset)
 3. [Download](https://drive.google.com/file/d/1c1ddEkk4-EKT9mbyg0RGSIMVuB32zXHB/view?usp=sharing) and add file yolov4.weights to the project folder.
 4. Add some subfolders to each model folder to store feature files, model files, checkpoints... as below:
-├── 2_Swin_LSTM
 
+├── 2_Swin_LSTM
 │   ├── checkpoint
 
 │   ├── model_swin_lstm
